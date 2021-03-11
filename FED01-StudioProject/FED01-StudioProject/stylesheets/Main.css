@@ -1,0 +1,19 @@
+﻿
+header {
+    border: 1px solid black;
+}
+
+body {
+}
+
+.slogan {
+    font-style:italic;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+.navBar li {
+    display:inline;
+}
