@@ -1,9 +1,12 @@
 ﻿
 header {
     border: 1px solid black;
+    background-color:white;
 }
 
 body {
+    background-image: url('../images/Putting-on-Bermuda-Greens.jpg');
+    background-size: cover;
 }
 
 .slogan {
@@ -12,8 +15,42 @@ body {
 
 nav {
     border: 1px solid black;
+    background-color:white;
+    opacity:.4;
 }
 
-.navBar li {
+.navBar li  {
     display:inline;
+    border: 1px solid black;
+    justify-content: space-around;
+    text-align:left;
+    background-color:white;
+    color:black;
+    padding: 1px;
+}
+
+.infoTitle {
+    text-align: center;
+}
+
+footer {
+    border: 1px solid black;
+    background-color:white;
+}
+
+.contactInfo {
+  
+}
+
+.contactTitle {
+
+    justify-content:center;
+    text-align:center;
+}
+
+ .contactInfo section {
+    
+    border: 1px solid black;
+    justify-content:center;
+    text-align:center;
 }
