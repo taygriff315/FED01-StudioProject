@@ -1,51 +1,76 @@
-﻿
+﻿/*#region Heading, Footer, and Background*/
 header {
+
     border: 1px solid black;
-    background-color:white;
+    background-image:url(/images/images.jfif);
+    margin:0;
+}
+footer {
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: -50px;
 }
 
 body {
     background-image: url('../images/Putting-on-Bermuda-Greens.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    color: rgb(254,209,0);
 }
 
 .slogan {
-    font-style:italic;
+    margin: 0;
+    font-style: italic;
+    color: rgb(254,209,0);
 }
+/*#endregion*/
 
+/*#region navBar*/
 nav {
+    margin: 0;
     border: 1px solid black;
-    background-color:white;
+    background-color: rgb(60,160,6);
     opacity:.4;
 }
 
-.navBar li  {
-    display:inline;
+.navBar li {
+    display: inline;
     border: 1px solid black;
-    justify-content: space-around;
-    text-align:left;
-    background-color:white;
-    color:black;
-    padding: 1px;
+    margin: 10px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
+/*#endregion*/
+
+/*#region Contact Page*/
 
 .infoTitle {
     text-align: center;
 }
 
-footer {
-    border: 1px solid black;
-    background-color:white;
-}
+
 
 .contactInfo {
   
 }
 
 .contactTitle {
-
-    justify-content:center;
-    text-align:center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(205,181,115);
 }
 
  .contactInfo section {
@@ -54,3 +79,59 @@ footer {
     justify-content:center;
     text-align:center;
 }
+/*#endregion*/
+
+p {
+    background-color:white;
+    opacity: .5;
+    width: 30%;
+    font-weight: bold;
+}
+
+.about h2 {
+    color: rgb(205,181,115);
+    text-decoration: underline;
+}
+
+/*#region index*/
+
+.about {
+    width: 60%;
+    display:block;
+    float: right;
+    margin: 0;
+
+}
+.about p{
+    width: 100%;
+}
+
+.imageContainer img {
+    margin: 20px 0px 20px 50px;
+}
+/*#endregion*/
+
+.linkColumn {
+    margin: 0;
+    width: 25%;
+    border-left: 5px solid brown;
+    float: right;
+    background-color: rgb(254,209,0);
+    min-height: 100vh;
+    
+    
+}
+
+div.galleryItem {
+    width: 26%;
+    display: inline-block;
+    background-color: rgb(218,180,79);
+    overflow: hidden;
+    margin: 20px;
+}
+
+div.galleryItem img {
+    width: 100%;
+    height: 500px;
+}
+
