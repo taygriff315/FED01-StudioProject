@@ -73,6 +73,7 @@
     <Content Include="images\bunker.jfif" />
     <Content Include="images\driver swing.jfif" />
     <Content Include="images\Golf.jpg" />
+    <Content Include="images\golfTech.jfif" />
     <Content Include="images\hazard golf.jfif" />
     <Content Include="images\home-slider.jpg" />
     <Content Include="images\images.jfif" />
@@ -80,6 +81,8 @@
     <Content Include="images\palmer_1920_thumbs_up_portrait.jpg" />
     <Content Include="images\Putting-on-Bermuda-Greens.jpg" />
     <Content Include="images\putting.jfif" />
+    <Content Include="images\science.jfif" />
+    <Content Include="images\segio.jfif" />
     <Content Include="images\tigerwoods.jfif" />
     <Content Include="stylesheets\main.css" />
     <Content Include="team.html" />
@@ -102,7 +105,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\" />
+    <Folder Include="teamPositions\scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
