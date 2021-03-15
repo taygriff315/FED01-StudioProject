@@ -117,11 +117,14 @@ nav {
 }
 /*#endregion*/
 
+.indexMain p {
+    width: 30%;
+}
+
 main p {
     display: inline-block;
     background-color:white;
-    opacity: .5;
-    width: 30%; 
+    opacity: .5; 
     font-weight: bold;
     border: 1px solid white;
     border-radius: 5px;
@@ -179,10 +182,15 @@ main p {
     font-size: 36px;
 }
 
+.leadershipTitle {
+    width: 80%;
+} 
+
 #classesGallery h1 {
     font-size: 40px;
     color: rgb(254,209,0);
     text-align: center;
+    margin:0;
 }
 
 div.galleryItem {
@@ -203,4 +211,35 @@ div.galleryItem img {
     text-align: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+.staffInfo {
+    display: flex;
+}
+
+table, tr, th, td {
+    border: 2px solid brown;
+    color: rgb(254,209,0);
+}
+
+table {
+    text-align: center;
+    margin:auto;
+    background-image:url(/images/images.jfif);
+}
+
+.classHeading {
+    display: inline-block;
+    background-image: url(/images/images.jfif);
+    width: inherit;
+    border: 3px solid rgb(254,209,0);
+    border-radius: 3px;
+    color: rgb(254,209,0);
+    font-size: 24px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.classHeading h1 {
+    margin: 0;
 }

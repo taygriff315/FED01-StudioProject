@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="administration.html" />
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="images\16479.png" />
@@ -84,6 +85,8 @@
     <Content Include="images\science.jfif" />
     <Content Include="images\segio.jfif" />
     <Content Include="images\tigerwoods.jfif" />
+    <Content Include="instructors.html" />
+    <Content Include="sales.html" />
     <Content Include="stylesheets\main.css" />
     <Content Include="team.html" />
     <Content Include="Index.html" />
@@ -105,7 +108,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="teamPositions\scripts\" />
+    <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
