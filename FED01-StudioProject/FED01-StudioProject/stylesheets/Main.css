@@ -12,7 +12,7 @@ header {
 footer {
     border: 1px solid black;
     background-image: url(/images/images.jfif);
-    margin-bottom: -50px;
+    bottom: 0;
 }
 
 #footer p {
@@ -75,6 +75,11 @@ nav {
 
 }
 
+    .navBar li a:hover {
+        border: 3px solid rgb(254,209,0);
+        letter-spacing: .1em;
+    }
+
 /*#endregion*/
 
 /*#region Contact Page*/
@@ -107,12 +112,12 @@ nav {
 
 .contactInfo section {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid brown;
     justify-content: center;
     text-align: center;
     width: 30%;
     font-size: 26px;
-    background-color: rgb(94,54,33);
+    background-image: url(/images/images.jfif);
     border-radius: 5px;
 }
 /*#endregion*/
@@ -141,7 +146,7 @@ main p {
 
 .about {
     width: 60%;
-    display:block;
+    display:inline-block;
     float: right;
     margin: 0;
 
@@ -153,6 +158,10 @@ main p {
 .imageContainer img {
     margin: 20px 0px 20px 175px;
 }
+.bottomArticle h3 {
+    display: inline-block;
+    left:100px;
+}
 
 
 
@@ -161,9 +170,9 @@ main p {
 .linkColumn {
     margin: 0;
     width: 15%;
-    border-left: 5px solid brown;
-    border-top: 5px solid brown;
-    border-bottom: 5px solid brown;
+    border-left: 3px solid brown;
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
     float: right;
     background-image: url(/images/images.jfif);
     height: 400px;
@@ -196,10 +205,11 @@ main p {
 div.galleryItem {
     width: 26%;
     display: inline-block;
-    background-color: rgb(218,180,79);
+    background-image: url(/images/images.jfif);
     overflow: hidden;
     margin: 20px;
-    border: solid black 3px;
+    border: solid brown 2px;
+    color: rgb(254,209,0);
 }
 
 div.galleryItem img {
@@ -232,8 +242,8 @@ table {
     display: inline-block;
     background-image: url(/images/images.jfif);
     width: inherit;
-    border: 3px solid rgb(254,209,0);
-    border-radius: 3px;
+    border: 1px solid brown;
+    border-radius: 10px;
     color: rgb(254,209,0);
     font-size: 24px;
     margin: 15px;
@@ -242,4 +252,95 @@ table {
 
 .classHeading h1 {
     margin: 0;
+}
+
+.bottomArticle p {
+    margin:0;
+    display: inline-block;
+}
+
+.bottomArticle img {
+   
+}
+
+.topArticle {
+   
+}
+
+.topArticle p {
+   
+    margin: 0;
+    display:inline-block;
+    
+}
+
+.articleSection h3 {
+    margin: 0;
+    color: rgb(254,209,0);
+    display: inline-flex;
+   
+}
+
+.articleSection img {
+    height: 291.44px;
+    width: 350px;
+
+}
+
+.sidenav {
+    background-color: rgb(29,66,0);
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+    z-index: 3;
+    position: fixed;
+    opacity: .9;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right:10px;
+    font-size: 2.5em;
+
+
+}
+
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    font-weight: bold;
+    color: rgb(254,209,0);
+    padding: 8px 8px 8px 8px;
+    margin: 10px 0px;
+}
+
+.sidenav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    background-color: rgb(29,66,0);
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    z-index: 3;
+    position: fixed;
+    opacity: .9;
+    cursor: crosshair;
+}
+
+.vertical-text {
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-size: 1.5em;
+    top: 40%;
+    color: rgb(254,209,0);
+    font-weight: bold;
 }

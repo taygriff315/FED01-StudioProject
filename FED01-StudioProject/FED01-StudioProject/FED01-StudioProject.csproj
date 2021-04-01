@@ -87,6 +87,7 @@
     <Content Include="images\tigerwoods.jfif" />
     <Content Include="instructors.html" />
     <Content Include="sales.html" />
+    <Content Include="sideNavFunc.js" />
     <Content Include="stylesheets\main.css" />
     <Content Include="team.html" />
     <Content Include="Index.html" />
