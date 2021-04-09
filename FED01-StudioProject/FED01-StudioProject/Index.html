@@ -12,11 +12,12 @@
     <header>
         <img src="/images/16479.png" />
         <h1>Scratch Golf School</h1>
-        <h3 class="slogan">The only time you'll yell fore is when you're telling your group what score you got!</h3>
+        <h3 class="slogan">"The only time you'll yell fore is when you're telling your group what score you got!"</h3>
 
     </header>
-    <nav>
-        <ul class="navBar">
+    <nav class="collapseNav">
+        <a href="javascript:void(0)" onclick="toggleNav()" id="nav-btn">&#9776;</a>
+        <ul class="navBar" id="nav-list">
             <li><a href="Index.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="team.html">Team</a></li>
@@ -24,35 +25,50 @@
         </ul>
     </nav>
     <main class="indexMain">
-        <section class="imageContainer">
+         <article class="about">
+            <section class="imageContainer">
             <img src="images/palmer_1920_thumbs_up_portrait.jpg" alt="Arnold Palmer" width="250" height="400" />
-            <article class="about">
+            </section>
+            <div class="aboutText">
                 <h2>About Us</h2>
-                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-            </article>
-        </section>
-        <section class="articleSection">
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.oluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus "</p>
+            </div>
+         </article>
+           
             <h2 class="infoTitle">Why Choose Us?</h2>
-            <article class="topArticle">
+            <div class="infoContainer">
+                <article class="topArticle">
 
 
-                <img src="images/science.jfif" />
-                <h3>Research</h3>
-                <p>
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-                </p>
-            </article>
-            <article class="bottomArticle">
-                <h3>Technology</h3>
+                    <section class="topArticleImg">
+                        <img src="images/science.jfif" />
+                    </section>
 
-                <p>
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-                </p>
-                <img src="images/golfTech.jfif" />
-            </article>
+                    <div class="topArticleText">
+                        <h3>Research</h3>
+                        <p>
+                            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+                    </div>
+                </article>
+                <article class="bottomArticle">
+
+                    <div class="bottomArticleText">
+                        <h3>Technology</h3>
+
+                        <p>
+                            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+                    </div>
+
+                    <section class="bottomArticleImg">
+                        <img src="images/golfTech.jfif" />
+                    </section>
+                </article>
+            </div>
 
 
-        </section>
+        
     </main>
 
     <footer id="footer">
@@ -76,6 +92,6 @@
     </div>
 
     <script src="sideNavFunc.js"></script>
-
+    <script src="scripts/hamburgerMenu.js"></script>
 </body>
 </html>
