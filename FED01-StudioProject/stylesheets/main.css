@@ -1,0 +1,514 @@
+﻿
+/* gold- color: rgb(254,209,0);
+
+*/
+
+/*#region Heading, Footer, and Background*/
+header {
+    border: 1px solid black;
+    background-image: url(/images/images.jfif);
+    margin: 0;
+}
+footer {
+    border: 1px solid black;
+    background-image: url(/images/images.jfif);
+    bottom: 0;
+}
+
+#footer p {
+    background-color: none;
+    color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    background-image: url('../images/Putting-on-Bermuda-Greens.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homeBody {
+    background-color: rgb(31,79,1);
+    background-image: none;
+}
+
+header img {
+    padding: 10px 10px 0px 10px;
+    width: 55px;
+    height: 65px;
+    margin: 0px 0px 25px 0px;
+}
+
+header h1 {
+    font-size: 50px;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    color: rgb(254,209,0);
+    text-decoration: underline;
+    font-family: 'Great Vibes', cursive;
+}
+
+.slogan {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+    font-style: italic;
+    color: rgb(254,209,0);
+}
+/*#endregion*/
+
+/*#region navBar*/
+nav {
+    margin: 0;
+    border: 1px solid black;
+    background-color: rgb(60,160,6);
+    opacity:.7;
+}
+
+.navBar li {
+    display: inline;
+    margin: 10px;
+    text-align: left;
+    color: rgb(254,209,0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+    .navBar li a {
+        text-decoration: none;
+        color: rgb(254,209,0);
+        font-weight: bolder;
+    }
+
+    .navBar li a:hover {
+        /*border: 3px solid rgb(254,209,0);*/
+        letter-spacing: .1em;
+    }
+
+  
+
+    ul.navBar {
+        margin-top: 1rem;
+    }
+
+
+
+/*#endregion*/
+
+/*#region Contact Page*/
+
+.infoTitle {
+    text-align: center;
+    color: rgb(254,209,0);
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: rgb(254,209,0);
+    font-weight: 700;
+    
+}
+
+
+.contactInfo {
+  text-align:center;
+}
+
+.contactTitle {
+    justify-content: center;
+    text-align: center;
+    color:rgb(254,209,0);
+    font-size: 55px;
+    margin: 0px 0px 40px 0px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 900;
+}
+
+.contactInfo section {
+    display: inline-block;
+    border: 1px solid brown;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    font-size: 26px;
+    background-image: url(/images/images.jfif);
+    border-radius: 5px;
+}
+/*#endregion*/
+
+/*#region index*/
+
+
+
+section.imageContainer {
+    margin: 0px 20px 0px 20%;
+}
+
+section.imageContainer img {
+    height: 500px;
+    width: 350px;
+    border: 5px dashed rgb(254,209,0);
+    border-radius: 85%;
+    }
+
+main p {
+    display: inline-block;
+    background-color:white;
+    opacity: .5; 
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    
+}
+
+.about h2 {
+    display: block;
+    color: rgb(254,209,0);
+    text-decoration: underline;
+}
+
+
+
+article.about h2 {
+    margin: 0;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+section.imageContainer {
+    display: inline-block;
+}
+
+div.aboutText {
+    display: inline-block;
+    width: 40%;
+  
+    
+}
+
+.topArticle h3 {
+    display: inline-block;
+    margin: 0;
+    color: rgb(254,209,0);
+}
+
+div.topArticleText {
+    display: inline-block;
+    width:40%;
+    
+}
+
+
+
+div.imgContainer img {
+    height:500px;
+    width: 800px;
+    display: flex;
+    padding: 0;
+}
+
+
+
+.bottomArticleText p {
+    width: 103%;
+}
+
+
+div.bottomArticleText {
+    display: inline-block;
+    
+    
+}
+
+.bottomArticleText h3 {
+    display: inline-block;
+    margin: 0 auto;
+    color: rgb(254,209,0);
+    text-align: right;
+    float: right;
+}
+
+
+
+
+
+article.topArticle {
+    margin: 10px 0px 0px 0px;
+}
+
+article.bottomArticle {
+    margin: 0px 0px 0px 0px;
+}
+
+h2.infoTitle {
+    margin: 150px 0px 10px 0px;
+}
+
+article.about {
+    margin: 3% 10%;
+   
+    
+}
+
+div.infoContainer {
+    display: inline-block;
+    margin: 0 2.5% 0 2.5%;
+    
+    padding: 0px;
+    
+    
+}
+
+/*#endregion*/
+
+.linkColumn {
+    margin: 0;
+    width: 15%;
+    border-left: 3px solid brown;
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    float: right;
+    background-color: rgb(31,79,1);
+    height: 400px;
+}
+    .linkColumn a {
+        text-decoration: none;
+        color: rgb(254,209,0);
+        font-size: 26px;
+    }
+
+.leadershipTitle h2 {
+    text-align: center;
+    color: black;
+    font-size: 55px;
+}
+
+.leadershipTitle {
+    width: 80%;
+} 
+
+/*#region Classes*/
+
+#classesGallery h1 {
+    font-size: 40px;
+    color: rgb(254,209,0);
+    text-align: center;
+    margin:0;
+}
+
+div.description {
+    background-color: rgb(31,79,1);
+    color: rgb(254,209,0);
+}
+
+div.galleryItem {
+    width: 26%;
+    display: inline-block;
+    background-image: url(/images/images.jfif);
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+    color: black;
+}
+
+div.galleryItem h2 {
+   color: rgb(254,209,0);
+    }
+
+div.galleryItem img {
+    width: 100%;
+    height: 500px;
+}
+
+.mainClasses {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div#accordionExample.accordion {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(31,79,1);
+}
+
+.card-header {
+    background-image: url(/images/images.jfif);
+}
+
+div.card-body {
+    background-color: rgb(31,79,1);
+}
+
+button.btn.btn-link {
+    text-decoration: none;
+    color: rgb(254,209,0);
+    font-weight:800;
+}
+
+
+table, tr, th, td {
+    border: 2px solid black;
+    color: black;
+}
+
+table {
+    text-align: center;
+    margin:40px auto;
+    background-color: darkgrey;
+    width: 40%;
+}
+
+.tableTitle {
+   
+    font-size: 1.3em;
+}
+
+.classHeading {
+    display: inline-block;
+    width: inherit;
+    color: rgb(254,209,0);
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.staffInfo {
+    margin: 2%;
+}
+
+.classHeading h1 {
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 55px;
+}
+
+/*#endregion*/
+
+/*#region Side Nav*/
+.sidenav {
+    background-color: rgb(29,66,0);
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+    z-index: 3;
+    position: fixed;
+    opacity: .9;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right:10px;
+    font-size: 2.5em;
+
+
+}
+
+
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    font-weight: bold;
+    color: rgb(254,209,0);
+    padding: 8px 8px 8px 8px;
+    margin: 10px 0px;
+}
+
+.sidenav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    background-color: rgb(29,66,0);
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    z-index: 3;
+    position: fixed;
+    opacity: .9;
+    cursor: crosshair;
+}
+
+.vertical-text {
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-size: 1.5em;
+    top: 40%;
+    color: rgb(254,209,0);
+    font-weight: bold;
+}
+
+#nav-btn {
+    font-weight: bold;
+    color: rgb(254,209,0);
+    text-decoration:none;
+    font-size: 1.5em;
+    display: none;
+}
+
+
+section.leadershipTitle article {
+    display: flex;
+}
+
+section.leadershipTitle article img {
+    height: 200px;
+    width: 200px;
+    border-radius: 75%;
+}
+
+section.leadershipTitle h2 {
+    color: rgb(254,209,0);
+    font-family: 'Great Vibes', cursive;
+}
+
+/*#endregion*/
+
+@media screen and (max-width: 850px) {
+
+    .navBar {
+        display: none;
+    }
+
+    #nav-btn {
+        display: inline-block;
+        font-size:1.5em;
+    }
+
+    ul#nav-list.navBar.expanded {
+        float: none;
+        clear: both;
+        display: block;
+        background-color: none;
+    }
+        ul#nav-list.navBar.expanded a {
+            display: block;
+            text-align: center;
+            font-size: 1.5em;
+            background-color: none;
+        }
+
+        .navBar li {
+         background-color:none;
+         border: none;
+        }
+}
+   
