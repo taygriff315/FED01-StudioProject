@@ -6,23 +6,32 @@
     <meta name="description" content="Information about the coaches and staff at Scratch Golf" />
     <meta name="keywords" content="golf, swing, par, birdie, lessons, team, coaches" />
     <meta name="author" content="Taylor Griffin" />
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
     <link href="stylesheets/main.css" rel="stylesheet" />
 
 </head>
 <body>
     <header>
-        <img src="images/16479.png" />
-        <h1>Scratch Golf School</h1>
-        <h3 class="slogan">The only time you'll yell fore is when you're telling your group what score you got!</h3>
+        <div>
+
+            <h1><img src="/images/16479.png" />Scratch Golf School</h1>
+        </div>
+        <h3 class="slogan">"The only time you'll yell fore is when you're telling your group what score you got!"</h3>
 
     </header>
 
-    <nav>
-        <ul class="navBar">
+    <nav class="collapseNav">
+        <a href="javascript:void(0)" onclick="toggleNav()" id="nav-btn">&#9776;</a>
+        <ul class="navBar" id="nav-list">
             <li><a href="Index.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -38,24 +47,33 @@
         </aside>
         <section class="leadershipTitle">
             <h2>Sales</h2>
-            <article>
-                <img src="images/tigerwoods.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+                <img src="images/adamscott.jpg" id="sales" />
+                <p>Tiger Woods is an American professional golfer. He is tied for first in PGA Tour wins, ranks second in men's major championships, and holds numerous golf records. Woods is widely regarded as one of the greatest golfers of all time and one of the most famous athletes in the world. He was elected to the World Golf Hall of Fame.Woods has held numerous golf records. He has been the number one player in the world for the most consecutive weeks and for the greatest total number of weeks of any golfer in history. He has been awarded PGA Player of the Year a record 11 times[13] and has won the Byron Nelson Award for lowest adjusted scoring average a record eight times. Woods has the record of leading the money list in ten different seasons. He has won 15 professional major golf championships (trailing only Jack Nicklaus, who leads with 18) and 82 PGA Tour events (tied for first all time with Sam Snead).</p>
             </article>
-            <article>
-                <img src="images/phil.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+
+                <img src="images/websimpson.jpg" id="sales" />
+                <p>Justin Louis Thomas (born April 29, 1993) is an American professional golfer who plays on the PGA Tour and is former World Number One. In 2017, Thomas experienced a breakout year, winning five PGA Tour events, including the PGA Championship, his maiden major championship, and also winning the FedEx Cup championship. In May 2018, Thomas became the 21st player to top the Official World Golf Ranking. Thomas turned professional in 2013 and earned his tour card on the Web.com Tour through qualifying school. He won his first professional event at the 2014 Nationwide Children's Hospital Championship.[8] Thomas finished fifth in the 2014 Web.com Tour regular season, and third after the Web.com Tour Finals, and earned his PGA Tour card for the 2015 season. In 2015, Thomas collected seven top-10s and 15 top-25s, with fourth-place finishes at the Quicken Loans National and Sanderson Farms Championship as his best results. He finished 32nd at the PGA Tour's FedEx Cup, losing the Rookie of the Year award to Daniel Berger. He has been with our program for 2 years.</p>
             </article>
-            <article>
-                <img src="images/segio.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+                <img src="images/jordanspieth.jpg" id="sales" />
+                <p>Sergio García Fernández is a Spanish professional golfer who plays on both the PGA Tour and the European Tour. García has won 36 international tournaments as a professional, most notably the 2008 Players Championship and the 2017 Masters Tournament.He reached his highest career ranking, second, after winning the HSBC Champions tournament in November 2008. García has achieved career earnings of more than US $43 million. As a player, he is noted for strong iron play and accuracy. In the Ryder Cup, he competed in nine of the ten matches playing during his professional career cumulatively earning a record 25.5 points during those matches.</p>
             </article>
 
         </section>
     </main>
     <footer id="footer">
         <p>&copy; All Rights Reserved</p>
+        <p>&reg;Scratch Golf School Inc.</p>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

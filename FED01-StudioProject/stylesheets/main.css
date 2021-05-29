@@ -18,6 +18,7 @@ footer {
 #footer p {
     background-color: none;
     color: black;
+    margin: 0;
 }
 
 body {
@@ -161,8 +162,8 @@ main p {
     background-color:white;
     opacity: .5; 
     font-weight: bold;
-    border: 1px solid white;
-    border-radius: 5px;
+   
+
     
     
 }
@@ -210,15 +211,13 @@ div.topArticleText {
 div.imgContainer img {
     height:500px;
     width: 800px;
-    display: flex;
+    display: inline-block;
     padding: 0;
 }
 
 
 
-.bottomArticleText p {
-    width: 103%;
-}
+
 
 
 div.bottomArticleText {
@@ -227,20 +226,14 @@ div.bottomArticleText {
     
 }
 
-.bottomArticleText h3 {
-    display: inline-block;
-    margin: 0 auto;
-    color: rgb(254,209,0);
-    text-align: right;
-    float: right;
-}
+
 
 
 
 
 
 article.topArticle {
-    margin: 10px 0px 0px 0px;
+    
 }
 
 article.bottomArticle {
@@ -304,7 +297,7 @@ div.infoContainer {
 }
 
 div.description {
-    background-color: rgb(31,79,1);
+   
     color: rgb(254,209,0);
 }
 
@@ -348,7 +341,7 @@ div#accordionExample.accordion {
 }
 
 div.card-body {
-    background-color: rgb(31,79,1);
+    background-color: rgb(102,185,47);
 }
 
 button.btn.btn-link {
@@ -368,6 +361,10 @@ table {
     margin:40px auto;
     background-color: darkgrey;
     width: 40%;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
 }
 
 .tableTitle {
@@ -464,21 +461,69 @@ table {
     display: none;
 }
 
+.leadershipTitle img {
+
+}
+
 
 section.leadershipTitle article {
     display: flex;
 }
 
 section.leadershipTitle article img {
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 150px;
     border-radius: 75%;
+    height:200px;
+}
+
+#sales {
+    max-height: 200px;
+    max-width: 150px;
+    border-radius: 75%;
+    height: 200px;
 }
 
 section.leadershipTitle h2 {
     color: rgb(254,209,0);
     font-family: 'Great Vibes', cursive;
 }
+
+#top-image {
+    float: left;
+  
+}
+
+#top-par {
+  width: 50%;
+  display:flex;
+ float: right;
+
+}
+
+#bottom-image {
+    float: right;
+    clear: right;
+  
+}
+
+#bottom-par {
+  width: 50%;
+  display: flex;
+  float: left;
+  margin: 0%;
+  clear: left;
+}
+
+.bottomArticle h3 {
+ clear: left;
+ float: left;
+margin-left: 34%;
+color: rgb(254,209,0);
+
+
+}
+
 
 /*#endregion*/
 

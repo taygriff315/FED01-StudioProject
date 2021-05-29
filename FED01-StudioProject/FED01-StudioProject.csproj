@@ -71,22 +71,32 @@
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="images\16479.png" />
+    <Content Include="images\adamscott.jpg" />
     <Content Include="images\bunker.jfif" />
     <Content Include="images\driver swing.jfif" />
+    <Content Include="images\FredCouples.png" />
+    <Content Include="images\freddy.jpg" />
+    <Content Include="images\GaryPlayer.jpg" />
     <Content Include="images\Golf.jpg" />
     <Content Include="images\golfTech.jfif" />
     <Content Include="images\hazard golf.jfif" />
     <Content Include="images\home-slider.jpg" />
     <Content Include="images\images.jfif" />
+    <Content Include="images\JackNicklaus.jpg" />
+    <Content Include="images\jordanspieth.jpg" />
+    <Content Include="images\JustinThomas.jpg" />
     <Content Include="images\Ouimet.jpg" />
     <Content Include="images\palmer_1920_thumbs_up_portrait.jpg" />
     <Content Include="images\Putting-on-Bermuda-Greens.jpg" />
     <Content Include="images\putting.jfif" />
+    <Content Include="images\Rickie.jpg" />
+    <Content Include="images\Rory.jpg" />
     <Content Include="images\rorymcillroy.jpg" />
     <Content Include="images\science.jfif" />
     <Content Include="images\segio.jfif" />
     <Content Include="images\tigerCharlie.jpg" />
     <Content Include="images\tigerwoods.jfif" />
+    <Content Include="images\websimpson.jpg" />
     <Content Include="images\Yousuf-Karsh-Arnold-Palmer-1991.jpg" />
     <Content Include="instructors.html" />
     <Content Include="sales.html" />
@@ -98,7 +108,9 @@
     <Content Include="teamPositions\administration.html" />
     <Content Include="teamPositions\sales.html" />
     <Content Include="teamPositions\instructors.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

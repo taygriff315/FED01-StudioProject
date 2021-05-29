@@ -6,56 +6,75 @@
     <meta name="description" content="Information about the coaches and staff at Scratch Golf" />
     <meta name="keywords" content="golf, swing, par, birdie, lessons, team, coaches" />
     <meta name="author" content="Taylor Griffin" />
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
     <link href="stylesheets/main.css" rel="stylesheet" />
 
 </head>
 <body>
     <header>
-        <img src="images/16479.png" />
-        <h1>Scratch Golf School</h1>
-        <h3 class="slogan">The only time you'll yell fore is when you're telling your group what score you got!</h3>
+        <div>
+
+            <h1><img src="/images/16479.png" />Scratch Golf School</h1>
+        </div>
+        <h3 class="slogan">"The only time you'll yell fore is when you're telling your group what score you got!"</h3>
 
     </header>
 
-    <nav>
-        <ul class="navBar">
+    <nav class="collapseNav">
+        <a href="javascript:void(0)" onclick="toggleNav()" id="nav-btn">&#9776;</a>
+        <ul class="navBar" id="nav-list">
             <li><a href="Index.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
         <aside class="linkColumn">
             <br /><br />
-                  <ul>
-                      <li><a href="team.html">Leadership</a></li>
-                      <li><a href="administration.html">Administration</a></li>
-                      <li><a href="sales.html">Sales</a></li>
-                      <li><a href="instructors.html">Instructors</a></li>
-                  </ul>
+            <ul>
+                <li><a href="team.html">Leadership</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+            </ul>
             <br /><br />
         </aside>
         <section class="leadershipTitle">
             <h2>Administration</h2>
-            <article>
-                <img src="images/tigerwoods.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+
+                <img src="images/freddy.jpg" />
+              
+                <p>Couples was born in Seattle, Washington, to Tom and Violet (née Sobich) Couples. His paternal grandparents immigrated from Italy and changed the family name from "Coppola" to "Couples" to make it sound less ethnic, and his mother was of Croatian descent. Couples was named the PGA Tour Player of the Year twice, in 1991 and 1992. He also won the Vardon Trophy for lowest scoring average in each of those years. He has been named to the United States Ryder Cup team five times, in 1989, 1991, 1993, 1995 and 1997. He has Been with our program for 7 years.</p>
             </article>
-            <article>
-                <img src="images/phil.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+                <img src="images/JackNicklaus.jpg" />
+                <p>Jack William Nicklaus, nicknamed The Golden Bear, is an American retired professional golfer. He is widely considered to be one of the greatest golfers of all time. He won 117 professional tournaments in his career. Over a quarter-century, he won a record 18 major championships, three more than second-placed Tiger Woods. Nicklaus focused on the major championships—the Masters Tournament, U.S. Open, Open Championship and PGA Championship—and played a selective schedule of regular PGA Tour events. He competed in 164 major tournaments, more than any other player, and finished with 73 PGA Tour victories, third behind Sam Snead (82) and Woods (82).</p>
             </article>
-            <article>
-                <img src="images/segio.jfif" />
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <article class="staffInfo">
+
+                <img src="images/GaryPlayer.jpg" />
+                <p>Gary Player is a South African retired professional golfer who is widely considered to be one of the greatest golfers ever. During his career, Player won nine major championships on the regular tour and nine major championships on the Champions Tour. At the age of 29, Player won the 1965 U.S. Open and became the only non-American to win all four majors in a career, known as the career Grand Slam. At the time, he was the youngest player to do this, though Jack Nicklaus (26) and Tiger Woods (24) subsequently broke this record. Player became only the third golfer in history to win the Career Grand Slam, following Ben Hogan and Gene Sarazen, and only Nicklaus and Woods have performed the feat since. He won over 150 professional tournaments on six continents over seven decades and was inducted into the World Golf Hall of Fame in 1974.</p>
             </article>
 
         </section>
     </main>
     <footer id="footer">
         <p>&copy; All Rights Reserved</p>
+        <p>&reg;Scratch Golf School Inc.</p>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
