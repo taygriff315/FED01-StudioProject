@@ -462,7 +462,7 @@ table tr:nth-child(even) {
 }
 
 .leadershipTitle img {
-
+    border: 8px solid rgb(254,209,0);
 }
 
 
